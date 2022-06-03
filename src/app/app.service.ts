@@ -12,6 +12,6 @@ export class AppSettingsService {
     }
 
     public getJSON(): Observable<any> {
-        return this.http.get("../assets/test.json");
+        return this.http.get("assets/test.json");
     }
 }
