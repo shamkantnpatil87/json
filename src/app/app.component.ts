@@ -11,6 +11,9 @@ export class AppComponent implements OnInit{
   myData:any;
   constructor(public json:AppSettingsService) {
 
+
+
+    
   }
   ngOnInit() {
     this.json.getJSON().subscribe((data:any)=> {
