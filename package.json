@@ -1,12 +1,14 @@
 {
   "name": "json",
   "version": "0.0.0",
+  "homepage": "/json",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --prod --base-href https://shamkantnpatil87.github.io/json/ && angular-cli-ghpages --branch  gh-pages"
   },
   "private": true,
   "dependencies": {
